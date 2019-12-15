@@ -1,7 +1,7 @@
 {
   "name": "haiku-core",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
   "repository": "https://github.com/sadnessOjisan/haiku-core.git",
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
@@ -14,5 +14,9 @@
     "rollup-plugin-typescript": "^1.0.1",
     "tslib": "^1.10.0",
     "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "js-word-count-for-haiku": "^1.0.3",
+    "js-word-kana": "^1.0.0"
   }
 }
