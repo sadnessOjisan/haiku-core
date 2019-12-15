@@ -102,7 +102,6 @@ const setWord = (word: string, kana: string, position: TPosition) => {
 /** 俳句を出力する関数 */
 const resultHike = (HIKE_OBJECT: THikeObject) => {
   const { first, second, third } = HIKE_OBJECT;
-  console.info(`${first.word} ${second.word} ${third.word}`);
   return `${first.word} ${second.word} ${third.word}`;
 };
 
