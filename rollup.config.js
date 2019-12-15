@@ -8,4 +8,5 @@ module.exports = {
     format: "cjs"
   },
   plugins: [terser(), typescript()]
+
 };
