@@ -2,7 +2,7 @@
 
 babel-plugin と eslint-plugin を使って俳句を見つけるときの共通処理をまとめた関数。ソースコードの AST ノードを受け取り、俳句が含まれているかを判定します。俳句があった場合はその俳句を値として返します。
 
-これは [クソアプリ Advent Calendar 2019](https://qiita.com/advent-calendar/2019/kuso-app)の 19 日目の記事である、[ビルド時に俳句を読めるプラグイン](https://qiita.com/sadnessOjisan/98619eaaef1da8d6545a) のために開発されたものです。
+これは [クソアプリ Advent Calendar 2019](https://qiita.com/advent-calendar/2019/kuso-app)の 19 日目の記事である、[ビルド時に俳句を読めるプラグイン](https://qiita.com/sadnessOjisan/items/98619eaaef1da8d6545a) のために開発されたものです。
 
 ## 導入
 
